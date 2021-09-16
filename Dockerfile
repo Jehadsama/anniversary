@@ -1,4 +1,4 @@
-FROM nginx
+FROM nginx:mainline-alpine
 LABEL maintainer="Jehadsama<339364351@qq.com>"
 
 COPY ./ /src-app

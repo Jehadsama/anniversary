@@ -5,6 +5,12 @@ Jehadsama 和 萌妹子 的恋爱纪念日 2017.10.21
 http://www.jhlovess.cn/
 
 #### docker build
+```shell
+docker built -t jehadsama/anniversary
+```
+
+
+#### docker run
 
 ```shell
 docker run --name anniversary -p 9000:9000 --restart=always -d jehadsama/anniversary
